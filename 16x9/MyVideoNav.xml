@@ -440,7 +440,7 @@
 					<include content="Spacer">
 						<param name="visible" value="!String.IsEmpty(ListItem.Duration)" />
 					</include>
-					<include>Rating_TV</include>
+					<!--<include>Rating_TV</include>
 					<include condition="String.IsEmpty(Skin.String(RatingCountry)) | String.IsEqual(Skin.String(RatingCountry),US)">Rating_MPAA</include>
 					<include condition="String.IsEqual(Skin.String(RatingCountry),UK)">Rating_BBFC</include>
 					<include condition="String.IsEqual(Skin.String(RatingCountry),Germany)">Rating_FSK</include>
@@ -466,7 +466,7 @@
 					<include>ListItemResolution</include>
 					<include content="Spacer">
 						<param name="visible" value="Integer.IsGreater(ListItem.VideoResolution,710) | String.IsEqual(ListItem.VideoResolution,4K)" />
-					</include>
+					</include>-->
 					<control type="image">
 						<top>2</top>
 						<width>147</width>
@@ -498,6 +498,15 @@
 						<textcolor>ffdadada</textcolor>
 						<label>$INFO[ListItem.Rating,,/10]</label>
 						<visible>!String.IsEmpty(ListItem.Rating)</visible>
+					</control>
+					<control type="label">
+						<width>auto</width>
+						<height>24</height>
+						<font>Med24Num</font>
+						<aligny>bottom</aligny>
+						<textcolor>ffbebebe</textcolor>
+						<label>$INFO[ListItem.Genre,[COLOR 00ffffff]/[/COLOR],]</label>
+						<visible>!String.IsEmpty(ListItem.Genre)</visible>
 					</control>
 				</control>
 				<!-- Movie / TV Show plot -->
