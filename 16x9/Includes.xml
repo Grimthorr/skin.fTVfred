@@ -792,6 +792,35 @@
 					<label>$INFO[System.Time]</label>
 				</control>
 			</control>
+			<control id="99" type="grouplist">
+				<right>90</right>
+				<top>104</top>
+				<width>500</width>
+				<height>60</height>
+				<align>right</align>
+				<itemgap>6</itemgap>
+				<orientation>horizontal</orientation>
+				<visible>!String.IsEmpty(Player.FinishTime)</visible>
+				<control id="99" type="label">
+					<width>auto</width>
+					<height>30</height>
+					<font>Light28</font>
+					<align>right</align>
+					<textcolor>ffeaeaea</textcolor>
+					<shadowcolor>ff000000</shadowcolor>
+					<label>Ends at</label>
+				</control>
+				<control id="99" type="label">
+					<top>1</top>
+					<width>auto</width>
+					<height>30</height>
+					<align>right</align>
+					<font>Med28</font>
+					<textcolor>ffeaeaea</textcolor>
+					<shadowcolor>ff000000</shadowcolor>
+					<label>$INFO[Player.FinishTime]</label>
+				</control>
+			</control>
 		</control>
 	</include>
 	<!-- Player HD Label -->
