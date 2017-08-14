@@ -616,7 +616,7 @@
 						<visible>System.HasAddon(script.artwork.downloader) + [String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,tvshow)] + !Skin.HasSetting(EmbyHideUpdateButton)</visible>
 					</control>
 					<!-- ExtendedINfo Button -->
-					<control id="21" type="button">
+					<!--<control id="21" type="button">
 						<width min="124" max="244">auto</width>
 						<wrapmultiline>true</wrapmultiline>
 						<height>116</height>
@@ -633,7 +633,7 @@
 						<texturefocus border="13,5,6,8">views/button_fo.png</texturefocus>
 						<texturenofocus border="13,3,6,6">views/button_nf.png</texturenofocus>
 						<visible>System.HasAddon(script.extendedinfo) + !String.IsEmpty(ListItem.DBID)</visible>
-					</control>
+					</control>-->
 				</control>
 				<!-- Dummy Button grouplist -->
 				<control type="grouplist">
