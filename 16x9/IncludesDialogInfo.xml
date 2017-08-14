@@ -155,7 +155,7 @@
 						<font>Light35</font>
 						<textcolor>ffdadada</textcolor>
 						<focusedcolor>ffffc24b</focusedcolor>
-						<label>$LOCALIZE[544]</label>
+						<label>[CAPITALIZE]$LOCALIZE[544][/CAPITALIZE]</label>
 						<include>NoTextures</include>
 						<animation condition="String.IsEmpty(Window(home).Property(Details))" effect="fade" end="50" start="100" time="0">Conditional</animation>
 						<visible>!String.IsEmpty(ListItem.VideoResolution) | !String.IsEmpty(ListItem.AudioLanguage) | !String.IsEmpty(ListItem.FileName)</visible>
@@ -1152,7 +1152,7 @@
 						<height>32</height>
 						<font>Med32</font>
 						<textcolor>ff717171</textcolor>
-						<label>$LOCALIZE[544]</label>
+						<label>[CAPITALIZE]$LOCALIZE[544][/CAPITALIZE]</label>
 					</control>
 					<control type="grouplist">
 						<top>50</top>
