@@ -855,7 +855,7 @@
 				<label>$VAR[PlayerDuration]</label>
 			</control>
 			<!-- Player Resolution Label -->
-			<include condition="!Player.HasAudio">PlayerResolutionLabel</include>
+			<!--<include condition="!Player.HasAudio">PlayerResolutionLabel</include>-->
 		</control>
 		<!-- Show Info Labels -->
 		<control type="label">
