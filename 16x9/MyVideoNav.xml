@@ -620,9 +620,9 @@
 						<label>[COLOR ff707070]$LOCALIZE[31152]: [/COLOR]$INFO[ListItem.Premiered]</label>
 						<visible>!String.IsEmpty(ListItem.Premiered) + !String.IsEqual(System.Language,English)</visible>
 					</control>
-					<include>Rating_TV</include>
+					<!--<include>Rating_TV</include>
 					<include>AudioCodec</include>
-					<include>ListItemResolution</include>
+					<include>ListItemResolution</include>-->
 				</control>
 				<control type="group">
 					<visible>Container.Content(episodes)</visible>
